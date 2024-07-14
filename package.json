@@ -1,0 +1,20 @@
+{
+  "name": "kafka-schema-registry-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "services:start": "docker-compose up",
+    "services:down": "docker-compose down",
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "3.3.0",
+    "kafkajs": "2.2.4",
+    "prettier": "3.3.3"
+  }
+}
