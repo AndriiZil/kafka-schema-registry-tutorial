@@ -16,3 +16,7 @@
 
 - [Kafka Docker](https://hub.docker.com/r/bitnami/kafka)
 - [Schema Registry Docker](https://hub.docker.com/r/bitnami/schema-registry)
+
+## Docs
+
+- [Confluent Schema Registry for NodeJS](https://kafkajs.github.io/confluent-schema-registry/)
